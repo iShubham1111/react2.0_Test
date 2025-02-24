@@ -1,0 +1,157 @@
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+body {
+  padding-top: 70px; 
+}
+
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  text-align: center;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-container ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-container.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.features-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.features-list li {
+  margin: 10px 0;
+}
+
+.featured-products {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h5 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.home-container.dark .product-card {
+  background-color: #333;
+  color: white;
+}
+
+.home-container.dark .features-list li {
+  color: white;
+}
+
+
