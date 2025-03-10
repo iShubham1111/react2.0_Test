@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
-  const { id } = useParams();
+  const { id } = useParams(); 
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
+    // Fetch product details based on the id
     fetch(`https://dummyjson.com/products/${id}`)
       .then(response => response.json())
       .then(data => setProduct(data));
@@ -26,6 +27,7 @@ const ProductDetails = () => {
           <h5 className='text-success'>$ {product.price}</h5>
           <p>{product.description}</p>
           <p className='text-danger'>Rating: {product.rating}</p>
+          {/* You can add more product details here */}
         </div>
       </div>
     </div>

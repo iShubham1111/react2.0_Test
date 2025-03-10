@@ -1,0 +1,52 @@
+/* src/components/Todo.css */
+.todo-container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .todo-input {
+    border-radius: 50px;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #ddd;
+  }
+  
+  .todo-add-btn {
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-add-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-item {
+    margin-bottom: 0.75rem;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 0.75rem 0;
+    background: #f9f9f9;
+    transition: background 0.3s ease;
+  }
+  
+  .todo-item:hover {
+    background: #f1f1f1;
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    color: #999;
+  }
+  

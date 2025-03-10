@@ -145,6 +145,7 @@ body {
   color: #555;
 }
 
+
 .home-container.dark .product-card {
   background-color: #333;
   color: white;
@@ -154,4 +155,23 @@ body {
   color: white;
 }
 
+
+/* Global theme styles */
+.app.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.app.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* Ensure links and buttons adapt */
+.app.light a {
+  color: #212529;
+}
+.app.dark a {
+  color: #f8f9fa;
+}
 
